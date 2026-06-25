@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://b6eb8sq2joh0d"]
+
+[node name="Enemy" type="Sprite2D" unique_id=263150773]
