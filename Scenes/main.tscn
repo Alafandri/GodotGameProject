@@ -210,8 +210,11 @@ scale = Vector2(1, 3.9999993)
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=795989854]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="CanvasLayer" unique_id=1723281313]
+visible = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="CanvasLayer/ParallaxBackground" unique_id=899038835]
+position = Vector2(-10, 345)
+scale = Vector2(3.7, 3.7)
 motion_scale = Vector2(0.1, 0.1)
 motion_mirroring = Vector2(320, 0)
 
@@ -220,6 +223,8 @@ texture_filter = 1
 texture = ExtResource("7_d1ilt")
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="CanvasLayer/ParallaxBackground" unique_id=1865940687]
+position = Vector2(-10, 345)
+scale = Vector2(3.7, 3.7)
 motion_scale = Vector2(0.3, 0.3)
 motion_mirroring = Vector2(320, 0)
 
@@ -228,6 +233,8 @@ texture_filter = 1
 texture = ExtResource("8_6iyac")
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="CanvasLayer/ParallaxBackground" unique_id=1954144820]
+position = Vector2(-10, 345)
+scale = Vector2(3.7, 3.7)
 motion_scale = Vector2(0.5, 0.5)
 motion_mirroring = Vector2(320, 0)
 
@@ -236,6 +243,8 @@ texture_filter = 1
 texture = ExtResource("9_fdnlq")
 
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="CanvasLayer/ParallaxBackground" unique_id=1811622687]
+position = Vector2(-10, 345)
+scale = Vector2(3.7, 3.7)
 motion_scale = Vector2(0.7, 0.7)
 motion_mirroring = Vector2(320, 0)
 
@@ -244,8 +253,43 @@ texture_filter = 1
 texture = ExtResource("10_jkdf5")
 
 [node name="ParallaxLayer5" type="ParallaxLayer" parent="CanvasLayer/ParallaxBackground" unique_id=87611297]
+position = Vector2(-10, 345)
+scale = Vector2(3.7, 3.7)
 motion_mirroring = Vector2(320, 0)
 
 [node name="Sprite2D2" type="Sprite2D" parent="CanvasLayer/ParallaxBackground/ParallaxLayer5" unique_id=1840822853]
+texture_filter = 1
+texture = ExtResource("11_wsu2k")
+
+[node name="Background" type="Node2D" parent="." unique_id=981981288]
+position = Vector2(512, 512)
+
+[node name="Parallax2D" type="Parallax2D" parent="Background" unique_id=1673060106]
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/Parallax2D" unique_id=813552033]
+texture_filter = 1
+texture = ExtResource("7_d1ilt")
+
+[node name="Parallax2D2" type="Parallax2D" parent="Background" unique_id=2122587320]
+
+[node name="Sprite2D2" type="Sprite2D" parent="Background/Parallax2D2" unique_id=888575103]
+texture_filter = 1
+texture = ExtResource("8_6iyac")
+
+[node name="Parallax2D3" type="Parallax2D" parent="Background" unique_id=1640733046]
+
+[node name="Sprite2D3" type="Sprite2D" parent="Background/Parallax2D3" unique_id=449510223]
+texture_filter = 1
+texture = ExtResource("9_fdnlq")
+
+[node name="Parallax2D4" type="Parallax2D" parent="Background" unique_id=2124632705]
+
+[node name="Sprite2D4" type="Sprite2D" parent="Background/Parallax2D4" unique_id=2060251165]
+texture_filter = 1
+texture = ExtResource("10_jkdf5")
+
+[node name="Parallax2D5" type="Parallax2D" parent="Background" unique_id=2098260]
+
+[node name="Sprite2D5" type="Sprite2D" parent="Background/Parallax2D5" unique_id=842221912]
 texture_filter = 1
 texture = ExtResource("11_wsu2k")
