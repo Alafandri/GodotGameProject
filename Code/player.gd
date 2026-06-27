@@ -15,6 +15,9 @@ func get_custom_gravity(current_velocity: Vector2) -> float:
 		return get_gravity().y
 	return FALL_GRAVITY
 
+func _ready() -> void:
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
 func _physics_process(delta: float) -> void:
 	var direction := Input.get_axis("Left", "Right")
 	

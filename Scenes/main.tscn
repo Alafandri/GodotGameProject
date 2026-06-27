@@ -8,6 +8,7 @@
 [ext_resource type="Script" uid="uid://c46ryjtbn1mjt" path="res://Code/checkpoint_manager.gd" id="6_21xkr"]
 [ext_resource type="Texture2D" uid="uid://dsmhev0iuw1lf" path="res://Art/Background/backgroun4.png" id="8_6iyac"]
 [ext_resource type="Texture2D" uid="uid://c8vlu67w2slar" path="res://Art/Background/backgroun3.png" id="9_fdnlq"]
+[ext_resource type="PackedScene" uid="uid://c20esgoyweh1d" path="res://Objects/pause_menu.tscn" id="11_d1ilt"]
 [ext_resource type="Texture2D" uid="uid://beiwg57hbyicj" path="res://Art/Background/background1.png" id="11_wsu2k"]
 [ext_resource type="Texture2D" uid="uid://bpb7y3tf0w3j2" path="res://Art/Background/backgroun2.png" id="12_6iyac"]
 
@@ -136,6 +137,7 @@ fill_to = Vector2(0, 1)
 [node name="Game" type="Node2D" unique_id=791615044]
 
 [node name="Player" parent="." unique_id=1401649953 groups=["Player"] instance=ExtResource("2_bo1nx")]
+position = Vector2(0, 298)
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="." unique_id=517834051]
 visible = false
@@ -257,3 +259,6 @@ repeat_times = 96
 z_index = -3
 texture_filter = 1
 texture = ExtResource("11_wsu2k")
+
+[node name="PauseMenu" parent="." unique_id=402284616 instance=ExtResource("11_d1ilt")]
+visible = false

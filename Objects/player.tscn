@@ -222,7 +222,6 @@ randomness = 0.2
 process_material = SubResource("ParticleProcessMaterial_0ad8t")
 
 [node name="Slash" type="AnimatedSprite2D" parent="." unique_id=626499867]
-visible = false
 texture_filter = 1
 position = Vector2(82, 2)
 scale = Vector2(4.010013, 4.010013)
