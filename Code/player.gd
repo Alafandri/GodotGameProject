@@ -69,3 +69,6 @@ func handle_animations(direction: float) -> void:
 			sprite.play("Move")
 		else:
 			sprite.play("Idle")
+
+
+#Hey you! What are you doing here sneaking around my code?
