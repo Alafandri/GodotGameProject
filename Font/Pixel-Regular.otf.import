@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bonft7f2bburt"
-path="res://.godot/imported/LowresPixel-Regular.otf-a81a1f34152fde945c84377773fac5bb.fontdata"
+path="res://.godot/imported/Pixel-Regular.otf-3a46cf6d42bf85cce130e631e3ca5389.fontdata"
 
 [deps]
 
-source_file="res://Font/LowresPixel-Regular.otf"
-dest_files=["res://.godot/imported/LowresPixel-Regular.otf-a81a1f34152fde945c84377773fac5bb.fontdata"]
+source_file="res://Font/Pixel-Regular.otf"
+dest_files=["res://.godot/imported/Pixel-Regular.otf-3a46cf6d42bf85cce130e631e3ca5389.fontdata"]
 
 [params]
 

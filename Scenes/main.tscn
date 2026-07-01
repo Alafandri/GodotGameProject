@@ -232,3 +232,6 @@ metadata/_edit_lock_ = true
 
 [node name="Enemy" parent="." unique_id=1046912632 instance=ExtResource("12_6iyac")]
 position = Vector2(256, 256)
+
+[node name="Enemy2" parent="." unique_id=40739416 instance=ExtResource("12_6iyac")]
+position = Vector2(512, 256)
